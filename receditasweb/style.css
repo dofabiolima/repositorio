@@ -18,7 +18,7 @@ header{
     margin-top: -50px;
 }
 nav{
-margin: 1px;
+margin-top: -1px;
 justify-content: right;
 display: flex;
 background-color:#DA291C;
