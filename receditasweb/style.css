@@ -104,18 +104,33 @@ padding: 15px;
 
 
 .img-left{
-  width: auto; /* Ajusta automaticamente a largura */
+  width: 397px; /* Ajusta automaticamente a largura */
   height: auto; /* Ajusta automaticamente a altura */
   max-width: 100%; /* Garante que a imagem nunca será maior que o contêiner */
   display: block; /* Remove o espaço em branco em torno da imagem (opcional) */
-  padding-top: 10px;
+  padding-top: 2px;
   margin-left: 60px;
   border: solid #da291c42 10px;
-  margin-top: 30px;
+  margin-top: 28px;
   border-style:groove;
  
 
 }
+
+.img-c{
+    width: 50px; /* Ajusta automaticamente a largura */
+    height: auto; /* Ajusta automaticamente a altura */
+    max-width: 100%; /* Garante que a imagem nunca será maior que o contêiner */
+    display: block; /* Remove o espaço em branco em torno da imagem (opcional) */
+    padding-top: 10px;
+    border: solid #da291c42 10px;
+    margin-top: 30px;
+    border-style:groove;
+ 
+   
+   
+  
+  }
 
 .titulos{
     font-family: "Playwrite DE Grund", cursive;
