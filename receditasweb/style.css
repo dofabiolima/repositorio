@@ -17,6 +17,25 @@ header{
     text-align: center;
     margin-top: -50px;
 }
+
+footer {
+    background-color: #ff7a71fd;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0.5px;
+    height: 100px;
+    
+ 
+}
+
+div.footer{
+   display: inline-flex;
+   
+     
+}
 nav{
 margin-top: -1px;
 justify-content: right;
@@ -84,12 +103,16 @@ padding: 15px;
 }
 
 
-.img-din{
+.img-left{
   width: auto; /* Ajusta automaticamente a largura */
   height: auto; /* Ajusta automaticamente a altura */
   max-width: 100%; /* Garante que a imagem nunca será maior que o contêiner */
   display: block; /* Remove o espaço em branco em torno da imagem (opcional) */
-  padding-top: 140px;
+  padding-top: 10px;
+  margin-left: 60px;
+  border: solid #da291c42 10px;
+  margin-top: 30px;
+  border-style:groove;
  
 
 }
@@ -112,6 +135,13 @@ ul li{
     font-family: sans-serif;
     
 
+}
+
+.txtimgl{
+ margin-left: 200px;
+ font-family: "Satisfy", cursive;
+ font-size: 3em;
+ padding: 0;
 }
 
 ol li{
