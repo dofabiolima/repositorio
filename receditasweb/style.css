@@ -6,55 +6,83 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    background-color: #FFDED2;
+}
 
 header{
-    background-color: brown;
+    background-color: rgba(248, 248, 248, 0.13);
     color: white;
     padding: 10px;
     text-align: center;
+    margin-top: -50px;
 }
-nav{margin: 3px;
-justify-content: center;
+nav{
+margin: 1px;
+justify-content: right;
 display: flex;
-}
+background-color:#DA291C;
+height: 140px;
+margin-left: -9px;
+margin-right: -9px;
 
-nav a {
-    margin: 15px;
-    text-decoration: none;
-    font-weight: bolder;
+
+
 }
 
 nav a{
-    font-size: 1.6em;
-    color: rgb(250, 167, 137);
+    
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 15px;
+    
+    
 }
 
+nav a{
+    color: #FFC72C;
+    font-family: "Satisfy", cursive;
+    font-size: 2.5em;
+    margin-top: 80px;
+    
 
-nav ul li:hover{
-    background-color: rgb(224, 206, 206);
+  
    
     
-}
-
-h1{
-    font-family: "Matemasie", sans-serif;
-    text-align: left;
-    font-size: 3em;
-    font-weight: normal;
-    justify-content: center;
-    height: 3px;
-    color: rgb(253, 132, 132);
-    margin-top: 50px;
     
 }
 
-nav ul li{width: 140px;
-margin: 15px;
-padding: 15px;}
-
 nav ul{
-    display: inline;
+    display: inline-flex;
+    list-style: none; 
+    }
+
+nav ul:hover{
+    background-color: #6d87c4b2;
+   
 }
+
+
+h1{
+    font-family: "Satisfy", cursive;
+    text-align: left;
+    font-size: 6em;
+    font-weight: bold;
+    justify-content: center;
+    height: 3px;
+    color:#FFC72C;
+    margin-top: 40px;
+    margin-left: 50px;;
+    
+}
+
+nav ul li{
+width: 140px;
+margin: 15px;
+padding: 15px;
+
+}
+
 
 .img-din{
   width: auto; /* Ajusta automaticamente a largura */
@@ -62,7 +90,7 @@ nav ul{
   max-width: 100%; /* Garante que a imagem nunca será maior que o contêiner */
   display: block; /* Remove o espaço em branco em torno da imagem (opcional) */
   padding-top: 140px;
-  pad
+ 
 
 }
 
@@ -82,7 +110,7 @@ h2{
 
 ul li{
     font-family: sans-serif;
-    font-size: 1.4em;
+    
 
 }
 
