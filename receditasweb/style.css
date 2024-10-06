@@ -76,13 +76,13 @@ nav ul{
     list-style: none; 
     }
 
-nav ul:hover{
-    background-color: #6d87c4b2;
+nav a:hover{
+    font-style: italic;
    
 }
 
 
-h1{
+h1 {
     font-family: "Satisfy", cursive;
     text-align: left;
     font-size: 6em;
@@ -93,6 +93,20 @@ h1{
     margin-top: 40px;
     margin-left: 50px;;
     
+}
+
+.h1p{
+    font-family: "Satisfy", cursive;
+    font-size: 6em;
+    color: #7c0a027b;
+}
+
+
+
+h1 a{
+    font-family: "Satisfy", cursive;
+    color:#FFC72C;
+    text-decoration: none;
 }
 
 nav ul li{
@@ -117,29 +131,80 @@ padding: 15px;
 
 }
 
-.img-c{
-    width: 50px; /* Ajusta automaticamente a largura */
-    height: auto; /* Ajusta automaticamente a altura */
-    max-width: 100%; /* Garante que a imagem nunca será maior que o contêiner */
-    display: block; /* Remove o espaço em branco em torno da imagem (opcional) */
-    padding-top: 10px;
-    border: solid #da291c42 10px;
-    margin-top: 30px;
-    border-style:groove;
- 
+.div-img{
+    display: flex;
+    gap: 30px; /* Espaço entre as imagens */
+    margin-top: 150px;
+    margin-left: 210px;
+    width: 1000px;   /* Largura desejada */
+    height: 1000px;  /* Altura desejada */
+    text-align: center;
    
-   
+    font-size: 4em;
   
-  }
+
+    
+   
+}
+
+.div-img-s{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 55px;
+    width: 500px;   /* Largura desejada */
+    height: 500px;  /* Altura desejada */
+    text-align: center;
+    font-size: 4em;
+    
+  
+
+    
+   
+}
+
+.imagem {
+    
+    height: 500px;    /* Mantém a proporção da imagem */
+    width: 500px;
+    border: solid #da291c42 10px;
+    border-style:groove;
+
+    
+}
+
+.imagem2 {
+    
+    height: 500px;    /* Mantém a proporção da imagem */
+    width: 800px;
+    border: solid #a56d69a8 15px;
+    border-style:groove;
+
+    
+}
+
+.imagem:hover{
+    background-color: #FFC72C;
+}
+  
+  
+  
 
 .titulos{
     font-family: "Playwrite DE Grund", cursive;
     color: black;
 }
 
-p{
+div a{
     padding-top: 20px;
-        
+    text-decoration: none;
+    color: #7c0a027b;
+          
+}
+
+div p{
+    font-family: "Satisfy", cursive;
+    
+    
 }
 
 h2{
@@ -152,8 +217,28 @@ ul li{
 
 }
 
+.it-ingredientes{
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+    color:#7c0a027b;
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style-type: circle;
+    
+}
+
+.ingredientes{
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+    color:black;
+    margin-top: 10px;
+    margin-left: 70px;
+    list-style-type: circle;
+    height: 500px;
+    
+}
 .txtimgl{
- margin-left: 200px;
+ margin-left: 140px;
  font-family: "Satisfy", cursive;
  font-size: 3em;
  padding: 0;
