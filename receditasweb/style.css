@@ -15,6 +15,7 @@ header{
     padding: 10px;
     text-align: center;
     margin-top: -50px;
+    width: 4100px;
 }
 
 footer {
@@ -44,6 +45,9 @@ background-color:#fa574bfd;
 height: 140px;
 margin-left: -9px;
 margin-right: -9px;
+display: flex;
+
+
 }
 
 
@@ -51,7 +55,11 @@ nav a{
     
     text-decoration: none;
     font-weight: bolder;
-    margin: 25px;
+    margin: 35px;
+    display: flex;
+    margin-left: 35px;
+
+   
     
     
 }
@@ -139,18 +147,20 @@ main{
     margin-top: 450px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+
     
 }
 
 main div{
     display: flex;
 }
+
 .div-img{
     display: inline-flex;
     gap: 200px; /* Espaço entre as imagens */
     margin-top: 150px;
-    margin-left: 1500px;
+    margin-left: 600px;
     margin-right: 900px;
     margin-bottom: 150px;
     width: 3500px;
