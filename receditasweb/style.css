@@ -139,12 +139,11 @@ padding: 15px;
     gap: 90px; /* Espaço entre as imagens */
     margin-top: 150px;
     margin-left: 900px;
-    width: 600px;   /* Largura desejada */
+    width: 2280px;   /* Largura desejada */
     height: 1000px;  /* Altura desejada */
     text-align: center;
     align-items: center;
-    align-content: center;
-   
+    align-content: center;  
     font-size: 4em;
   
 
