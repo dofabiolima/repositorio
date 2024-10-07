@@ -36,6 +36,7 @@ div.footer{
    
      
 }
+
 nav{
 margin-top: -1px;
 justify-content: right;
@@ -44,16 +45,14 @@ background-color:#fa574bfd;
 height: 140px;
 margin-left: -9px;
 margin-right: -9px;
-
-
-
 }
+
 
 nav a{
     
     text-decoration: none;
     font-weight: bolder;
-    margin: 15px;
+    margin: 25px;
     
     
 }
@@ -78,6 +77,10 @@ nav ul{
 
 nav a:hover{
     font-style: italic;
+    color:gold ;
+    font-weight: bold;
+    font-size: 3em;
+  
    
 }
 
@@ -133,12 +136,14 @@ padding: 15px;
 
 .div-img{
     display: flex;
-    gap: 30px; /* Espaço entre as imagens */
+    gap: 90px; /* Espaço entre as imagens */
     margin-top: 150px;
-    margin-left: 210px;
-    width: 1000px;   /* Largura desejada */
+    margin-left: 900px;
+    width: 600px;   /* Largura desejada */
     height: 1000px;  /* Altura desejada */
     text-align: center;
+    align-items: center;
+    align-content: center;
    
     font-size: 4em;
   
@@ -168,6 +173,9 @@ padding: 15px;
     width: 500px;
     border: solid #da291c42 10px;
     border-style:groove;
+    align-content: baseline;
+    
+  
 
     
 }
@@ -198,7 +206,7 @@ div a{
     padding-top: 20px;
     text-decoration: none;
     color: #7c0a027b;
-          
+              
 }
 
 div p{
@@ -206,6 +214,8 @@ div p{
     
     
 }
+
+
 
 h2{
     padding-top: 20px;
