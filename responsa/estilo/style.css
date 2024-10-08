@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+
+root{
+    --cor0:#F7B019;
+    --cor1:#F7E619;
+    --cor2:#F7CB19;
+    --cor3:#F79219;
+    --cor4:#D7F719;
+}
 body{
-    background-color: #fce38a;
+    background-color:var(--cor0);
+   
 }
