@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /*"Permanent Marker", cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&family=Satisfy&display=swap');/*"Satisfy", cursive*/
+
+:root{
+    --cor0:#FFDED2;
+    --cor1:rgba(248, 248, 248, 0.13);
+    --cor2:#ff7a71fd;
+    --cor3:#fa574bfd;
+    --cor4:#da291c42;
+    --menu:#FFC72C;
+    --fonte-padrao: san-serif,arial,verdana;
+    --fonte-destaque:"Satisfy", cursive;
+    --fonte-titulo:font-family: "Satisfy", cursive;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_corpo{
+    background-color: var(--cor1);
+    
+    border-radius: 10px;
+    display:flex;
+    min-width: 320px;
+    max-width: 800px; 
+   
+    text-align: center; 
+    border-radius: 10px;
+    width: 100%;
+    
+  
+   
+    
+    
+
+            
+           
+}
+
+
+.imagem {
+    
+   
+    border: solid #da291c42 10px;
+    border-style:groove;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px; 
+
+
+    
+}
+
+.navaimg{
+    display: flex;
+    padding: 550px;
+              
+    gap: 30px;
+  
+    
+    
+}
+
+
+
+    
+
+
+
