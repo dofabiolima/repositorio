@@ -1,7 +1,8 @@
 @charset "UTF-8";
-
+/*importando fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
+/*declarando variáveis*/
 :root{
         --fonttitulos:"Allura", serif;
         --corfundotitulo:#f7c52ff6;
@@ -10,6 +11,7 @@
 
 }
 
+/* resetando margem e padding*/
 *{margin: 0;
 padding: 0;
 }
@@ -18,6 +20,56 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    text-align: justify;
+    flex: auto;
+
+}
+
+main{
+            background-color: white;
+            font-family: var(--fonttitulos);
+            padding: 20px;
+            border-radius: 10px;            
+            min-width: 320px;
+            max-width: 2000px; 
+            margin: auto;
+            }        
+
+main h1{
+    display: flex;
+    font-size: 5em;
+    text-align: left;
+}
+
+main ul{
+    font-family: var(--fonttitulos);
+    font-size: 3.5em;
+    padding: 10px;
+       
+}
+
+main h2{
+    font-family: var(--fonttitulos);
+    font-size: 3.5em;
+    padding:5px;
+    
+}
+
+main ul li{
+    margin-left: 35px;
+}
+
+main img{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+main p{
+    font-family: var(--fonttitulos);
+    font-size: 4em;   
+    text-align: justify;
+    flex-wrap: wrap;
+  
 }
 
 /* Estilos para o nav */
