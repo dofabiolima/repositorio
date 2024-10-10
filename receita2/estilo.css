@@ -26,12 +26,12 @@ body{
 }
 
 main{
-            background-color: white;
+            background-color:bisque;
             font-family: var(--fonttitulos);
-            padding: 20px;
+            padding: 40px;
             border-radius: 10px;            
             min-width: 320px;
-            max-width: 2000px; 
+            max-width: 70%; 
             margin: auto;
             }        
 
@@ -39,6 +39,7 @@ main h1{
     display: flex;
     font-size: 5em;
     text-align: left;
+    color: var(--corletratitulo);
 }
 
 main ul{
@@ -52,6 +53,7 @@ main h2{
     font-family: var(--fonttitulos);
     font-size: 3.5em;
     padding:5px;
+    color: var(--corletratitulo);
     
 }
 
