@@ -4,7 +4,7 @@
 
 :root{
         --fonttitulos:"Allura", serif;
-        --corfundotitulo:#F3B703;
+        --corfundotitulo:#f7c52ff6;
         --corletratitulo:#EF5124;
         --corsombra:#C02604;
 
@@ -13,14 +13,6 @@
 *{margin: 0;
 padding: 0;
 }
-
-/*
-#F3B703 yelow
-#EF5124 red
-#C02604 orange
-
-*/
-
 
 body{
     background-color: white;
@@ -33,14 +25,20 @@ body{
     flex-wrap: wrap;           /* Permite que as imagens quebrem para a próxima linha se necessário */
     justify-content: center; /* Distribui o espaço entre as imagens */
     gap: 100px;                 /* Espaçamento entre as imagens */
-    margin-top: 300px;
+    margin-top: 200px;
     text-align: center;  
     font-family: var(--fonttitulos);
     font-size: 5em;
+    color: #C02604;
+  
    
-
-    
    
+}
+nav div a{
+    text-decoration: none;
+    a:visited{
+        cor:var(--corsombra)
+    }
 }
 
 /* Estilos para as imagens */
@@ -60,7 +58,8 @@ nav img {
 header h1{
     font-family: var(--fonttitulos);
     font-size: 10em;
-    background-color: var(--corfundotitulo);
+    border-bottom: solid var(--corsombra) 10px;
+    margin-top: 28px;   
     color: var(--corletratitulo);
     font-weight: bolder;
       
@@ -100,13 +99,28 @@ header nav{
 }
 
 .nav2{
-margin-top: -60px;
+margin-top: -70px;
 justify-content: right;
 display: flex;
 height: 140px;
 margin-left: 4px;
 margin-right: 10px;
 gap: 50px;
+color: #C02604;
 }
 
+footer{
+    text-align: center;
+    padding-top: 180px;
+    font-size: 2.5em;
+    font-family: var(--fonttitulos);
+}
 
+nav p:hover{
+    color: #EF5124;
+    
+}
+
+main{
+    background-color: antiquewhite;
+}
