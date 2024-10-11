@@ -28,10 +28,10 @@ body{
 main{
             background-color:bisque;
             font-family: var(--fonttitulos);
-            padding: 40px;
-            border-radius: 10px;            
+            padding: 50px;
+            border-radius: 30px;            
             min-width: 320px;
-            max-width: 85%; 
+            max-width: 100%;
             margin: auto;
             }        
 
@@ -40,6 +40,12 @@ main h1{
     font-size: 5em;
     text-align: left;
     color: var(--corletratitulo);
+    
+}
+
+header {
+    max-width: 85%;
+    margin: auto;
 }
 
 main ul{
@@ -62,8 +68,11 @@ main ul li{
 }
 
 main img{
-    width: 100%;
-    padding-bottom: 40px;
+    max-width: 90%;
+   
+    border-radius: 50px;  
+    margin: auto;
+  
 }
 
 main p{
