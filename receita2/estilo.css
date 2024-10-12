@@ -24,11 +24,12 @@ body{
     border-radius: 10px;
     text-align: justify;
     flex: auto;
+    max-width: 100%;
 
 }
 
 main{
-            background-color:bisque;
+           
             font-family: var(--fonttitulos);
             padding: 2,6%;
             border-radius: 30px;            
@@ -39,7 +40,7 @@ main{
 
 main h1{
     display: flex;
-    font-size: 5em;
+    font-size: 2em;
     text-align: left;
     color: var(--corletratitulo);
     
@@ -52,14 +53,14 @@ header {
 
 main ul{
     font-family: var(--fonttitulos);
-    font-size: 3.5em;
+    font-size: 2em;
     padding: 0.5%;
        
 }
 
 main h2{
     font-family: var(--fonttitulos);
-    font-size: 3.5em;
+    font-size: 2em;
     padding:0.26%;
     color: var(--corletratitulo);
     
@@ -67,11 +68,11 @@ main h2{
 }
 
 main ul li{
-    margin-left: 35px;
+    margin-left: 3%;
 }
 
 main img{
-    max-width: 100%;
+    max-width: 60%;
    
     border-radius: 50px;  
     margin: auto;
@@ -80,7 +81,7 @@ main img{
 
 main p{
     font-family: var(--fonttitulos);
-    font-size: 4em;   
+    font-size: 1em;   
     text-align: justify;
     flex-wrap: wrap;
   
@@ -91,11 +92,11 @@ main p{
     display: flex;            /* Habilita o Flexbox */
     flex-wrap: wrap;           /* Permite que as imagens quebrem para a próxima linha se necessário */
     justify-content: center; /* Distribui o espaço entre as imagens */
-    gap: 100px;                 /* Espaçamento entre as imagens */
-    margin-top: 200px;
+    gap: 1%;                 /* Espaçamento entre as imagens */
+    margin-top: 5%;
     text-align: center;  /* alinha o texto nas imagens*/
     font-family: var(--fonttitulos); /*define a fonte do menu*/
-    font-size: 5em; /* tamanho da fonte*/
+    font-size: 2em; /* tamanho da fonte*/
     color: #C02604;  /* cor da fonte*/
   
     
@@ -118,21 +119,21 @@ nav div a p:hover{color: var(--corsombra);}
 /* Estilos para as imagens */
 nav img {
     width: 100%;               /* Ocupa 100% do espaço disponível dentro de seu container flex */
-    max-width: 300px;           /* Define uma largura máxima para as imagens */
+    max-width: 90%;           /* Define uma largura máxima para as imagens */
     height: auto;               /* Mantém a proporção da imagem */
     object-fit: cover;          /* Ajusta a imagem para cobrir o espaço disponível sem distorcer */
 }
 
 /* Estilos para os containers das imagens */
 .image-container {
-    flex: 1 1 150px;            /* O container cresce e encolhe, com largura mínima de 150px */
-    max-width: 300px;           /* Define uma largura máxima */
+    flex: 1 1 25%;            /* O container cresce e encolhe, com largura mínima de 150px */
+    max-width: 15%;           /* Define uma largura máxima */
   
 }
 
 header h1{
     font-family: var(--fonttitulos);
-    font-size: 10em;
+    font-size: 3em;
     border-bottom: solid var(--corsombra) 10px;
     margin-top: 28px;   
     color: var(--corletratitulo);
@@ -154,7 +155,7 @@ header nav a{
     font-size:3em;
     text-align: left;
     font-family: var(--fonttitulos);
-    font-size: 3.5em;
+    
 }
 
 header nav{
