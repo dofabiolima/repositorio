@@ -22,7 +22,6 @@ body{
     background-color: white;
     padding: 2%;
     border-radius: 10px;
-    text-align: justify;
     flex: auto;
     max-width: 100%;
 
@@ -93,7 +92,8 @@ main p{
     flex-wrap: wrap;           /* Permite que as imagens quebrem para a próxima linha se necessário */
     justify-content: center; /* Distribui o espaço entre as imagens */
     gap: 1%;                 /* Espaçamento entre as imagens */
-    margin-top: 5%;
+
+
     text-align: center;  /* alinha o texto nas imagens*/
     font-family: var(--fonttitulos); /*define a fonte do menu*/
     font-size: 2em; /* tamanho da fonte*/
@@ -133,9 +133,8 @@ nav img {
 
 header h1{
     font-family: var(--fonttitulos);
-    font-size: 3em;
-    border-bottom: solid var(--corsombra) 10px;
-    margin-top: 28px;   
+    font-size: 5em;
+    border-bottom: solid var(--corsombra);
     color: var(--corletratitulo);
     font-weight: bolder;
       
@@ -152,16 +151,13 @@ header nav a{
     color: var(--corletratitulo);
     text-decoration: none;
     font-weight: bold;
-    font-size:3em;
-    text-align: left;
+    font-size:1.5em;
     font-family: var(--fonttitulos);
+    
     
 }
 
-header nav{
-    display: inline-flexbox;            /* Habilita o Flexbox */
-            /* Permite que as imagens quebrem para a próxima linha se necessário */
-        }          
+       
 
 header nav a:hover{
    color: var(--corsombra);
@@ -169,12 +165,8 @@ header nav a:hover{
 }
  
 
-
-
-
-
 .nav2{
-margin-top: -70px;
+margin-top: -30px;
 justify-content: right;
 display: flex;
 height: 140px;
