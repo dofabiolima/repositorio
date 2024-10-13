@@ -39,9 +39,11 @@ main{
 
 main h1{
     display: flex;
-    font-size: 2em;
+    font-size: 3em;
     text-align: left;
     color: var(--corletratitulo);
+    padding-bottom: 1%;
+    padding-top: 1%;
     
 }
 
@@ -71,7 +73,7 @@ main ul li{
 }
 
 main img{
-    max-width: 60%;
+    max-width: 70%;
    
     border-radius: 50px;  
     margin: auto;
@@ -80,7 +82,7 @@ main img{
 
 main p{
     font-family: var(--fonttitulos);
-    font-size: 1em;   
+    font-size: 1.9em;   
     text-align: justify;
     flex-wrap: wrap;
   
@@ -162,6 +164,7 @@ header nav a{
 header nav a:hover{
    color: var(--corsombra);
    font-style: italic;
+   font-weight: bolder;
 }
  
 
@@ -169,7 +172,7 @@ header nav a:hover{
 margin-top: -30px;
 justify-content: right;
 display: flex;
-height: 140px;
+height: 59px;
 margin-left: 4px;
 margin-right: 10px;
 gap: 50px;
@@ -179,7 +182,8 @@ color: #C02604;
 
 footer{
     text-align: center;
-    padding-top: 180px;
+    padding-top: 13
+    0px;
     font-size: 2.5em;
     font-family: var(--fonttitulos);
 }
