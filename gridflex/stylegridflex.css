@@ -22,14 +22,17 @@ li {
     padding: 20px;
     align-items: center;
     background-color: gold;
+    
 }
 
 .menu {
     display: flex;
+    
 }
 
 .menu li {
     margin-left: 15px;
+   
 
 }
 
@@ -47,6 +50,7 @@ a {
     text-align: center;
     border: 4px solid orange;
     border-radius: 5px;
+    
 }
 
 .menu li a:hover{
@@ -72,7 +76,7 @@ img {
     margin: 0 auto;
 }
 
-.flexbox>div {
+.flexbox > div {
     flex: 1 1 200px;
     margin: 10px;
 
