@@ -1,0 +1,100 @@
+body,
+ul,
+p,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*espaço entre*/
+    padding: 20px;
+    align-items: center;
+    background-color: gold;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: tomato;
+    width: 100px;
+    text-align: center;
+
+
+}
+
+
+/* CSS FLEXBOX*/
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flexbox>div {
+    flex: 1 1 200px;
+    margin: 10px;
+
+}
+
+.flexbox div p {
+    text-align: center;
+}
+
+/*GRID CSS*/
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 780px;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.grid1 div p {
+    text-align: center;
+}
+
+/* .grid1 > div:nth-child(1){ */
+.grid1>div:nth-child(n+4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
