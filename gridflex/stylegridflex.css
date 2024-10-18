@@ -10,8 +10,10 @@ li {
     color: black;
 }
 
-.body {
-    margin-bottom: 100px;
+a {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
 }
 
 .header {
@@ -19,19 +21,13 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
     /*espaço entre*/
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     align-items: center;
+    padding: 20px;
     background-color: gold;
-    margin: 0 auto;
+    margin: 0 auto;   
     
-    
-}
-
-.header img{
-    max-width: 50%;
-    
-    ;
 }
 
 .menu {
@@ -40,15 +36,9 @@ li {
 }
 
 .menu li {
-    margin-left: 15px;
+    margin-left: 10px;
    
 
-}
-
-a {
-    text-decoration: none;
-    color: gold;
-    font-weight: bold;
 }
 
 .menu li a {
@@ -60,6 +50,14 @@ a {
     border: 4px solid orange;
     border-radius: 5px;
     
+}
+.body {
+    margin-bottom: 100px;
+}
+
+.header img{
+    max-width: 50%;
+        
 }
 
 .menu li a:hover{
@@ -74,7 +72,7 @@ h1 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /*tamnha maximo do container*/
     display: block;
 }
 
@@ -100,21 +98,19 @@ img {
 .grid1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
+    max-width: 800px; /*780*/
     padding: 10px;
     margin: 0 auto;
     gap: 20px;
 
 }
 
-.grid1 div p {
-    text-align: center;
-}
-
 /* .grid1 > div:nth-child(1){ */
-.grid1>div:nth-child(n + 4) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+ /* background-color: blueviolet; */
+.grid1>div:nth-child(n + 4) { /* a partir do 4 item*/
+    /* background-color: blueviolet; */
+    display: grid; /*grid img-txt*/
+    grid-template-columns: 1fr 1fr; 
     gap: 10px;
     align-items: center;
 }
@@ -126,7 +122,13 @@ img {
     border: 5px solid;
 }
 
-@media(max-width:600px) {
+.grid1 div p {
+    text-align: center;
+}
+
+
+/*a partir desse tamanho muda o estilo*/
+@media(max-width:600px) { 
     .grid1 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -146,7 +148,7 @@ img {
 
 .grid2{
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 1fr 200px;
     gap: 20px;
     max-width: 800px;
     padding: 10px;
