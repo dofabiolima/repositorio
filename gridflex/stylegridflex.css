@@ -175,3 +175,53 @@ img {
 
 }
 }
+
+/*GRID3 CSS*/
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 100px;
+
+  
+
+}
+
+.grid3-item1{
+    grid-row: 1/3;  
+   
+    
+}
+
+.grid3-item1 img {
+    width: 100%;
+    height: 100%;
+    grid-row: 1/3;
+   object-fit: cover; /* Faz com que a imagem cubra o espaço do grid */
+   
+}
+
+.grid3-item1 p{
+    background:rgba(0, 0, 0, 0.6) ;
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+   
+}
+
+.grid3-item p{
+    background:rgba(0, 0, 0, 0.6) ;
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+   
+}
+
+.grid3-item{
+    height: 100%;
+}
