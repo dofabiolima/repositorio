@@ -2,8 +2,6 @@ body,
 ul,
 p,
 li {
-    margin: 0px;
-    padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: sans-serif;
@@ -51,9 +49,7 @@ a {
     border-radius: 5px;
     
 }
-.body {
-    margin-bottom: 100px;
-}
+
 
 .header img{
     max-width: 50%;
@@ -181,10 +177,11 @@ img {
 .grid3{
     display: grid;
     grid-template-columns: repeat(2, 1fr );
-    gap: 10px;
+    gap: 5px;
     margin: 0 auto;
     max-width: 800px;
     padding-bottom: 100px;
+   
   
 
 }
@@ -198,7 +195,7 @@ img {
 
 .grid3-item1 img {
     width: 100%;
-    height: 90%;
+    height: 100%;
     grid-row: 1/3;
    
     
@@ -210,6 +207,7 @@ img {
     color: white;
     grid-column: 1;
     grid-row: 2;
+    margin-top: 0px;
    
 }
 
@@ -218,15 +216,16 @@ img {
     color: white;
     grid-column: 1;
     grid-row: 2;
+    padding: 10px;
     margin: 0 auto;
    
 }
 
-.grid3-item{
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;}
 
-    .grid-item img{
-        
+   .grid3-item img{
+     height: 100%;
+   
+
     }
+
+ 
